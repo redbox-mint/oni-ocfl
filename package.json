@@ -1,0 +1,38 @@
+{
+  "name": "oni-ocfl",
+  "version": "1.0.0",
+  "description": "Oni ocfl tools",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Language-Research-Technology/oni-ocfl.git"
+  },
+  "keywords": [
+    "Oni",
+    "OCFL"
+  ],
+  "author": "Moises Sacal",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/Language-Research-Technology/oni-ocfl/issues"
+  },
+  "homepage": "https://github.com/Language-Research-Technology/oni-ocfl#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "hasha": "^5.2.2",
+    "ocfl": "^1.0.9",
+    "ro-crate": "^2.0.3",
+    "winston": "^3.3.3"
+  }
+}

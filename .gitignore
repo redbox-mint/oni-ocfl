@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+node_modules
+dist
+coverage
+.env
+.idea
+.DS_Store
+test-data/test_ocfl
+
