@@ -1,5 +1,4 @@
 
-
 module.exports = {
     ocfltools: require('./lib/ocfl-tools'),
     Collector: require('./lib/collector'),
