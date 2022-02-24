@@ -9,7 +9,7 @@
         "@id": "https://w3id.org/ro/crate/1.1"
       },
       "about": {
-        "@id": "./"
+        "@id": "arcp://name,farms-to-freeways/corpus/root"
       }
     },
     {
@@ -38,9 +38,6 @@
         },
         {
           "@id": "_:local-id:/uts.edu.au:/uts.edu.au/data_repo/1b694bf5-bf70-4ea8-8bfc-b2864db65e97"
-        },
-        {
-          "@id": "_:local-id:ATAP:arcp://name,ATAP/uts.edu.au"
         }
       ],
       "name": "Farms to Freeways Example Dataset",
@@ -59,7 +56,7 @@
       "license": {
         "@id": "https://creativecommons.org/licenses/by/3.0/au/"
       },
-      "@id": "./",
+      "@id": "arcp://name,farms-to-freeways/corpus/root",
       "author": [
         {
           "@id": "http://nla.gov.au/anbd.aut-an35048773"
