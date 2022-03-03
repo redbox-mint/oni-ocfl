@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node_modules/jest/bin/jest.js",
-    "build:docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+    "build:docs": "node_modules/.bin/jsdoc2md -f 'lib/*.js' -c jsdoc.json > docs.md"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,8 @@
     "clean-jsdoc-theme": "^3.3.2",
     "dotenv": "^10.0.0",
     "jest": "^27.3.1",
-    "jsdoc": "^3.6.10"
+    "jsdoc": "^3.6.10",
+    "jsdoc-to-markdown": "^7.1.1"
   },
   "dependencies": {
     "@coedl/ocfl": "github:moisbo/ocfl-js#fix-version_state_paths",

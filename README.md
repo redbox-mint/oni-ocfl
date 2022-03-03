@@ -20,4 +20,4 @@ npm test
 
 ### Docs
 
-[docs](./docs/)
+[docs](./docs.md)
