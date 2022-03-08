@@ -21,3 +21,6 @@ npm test
 ### Docs
 
 [docs](./docs.md)
+
+
+## dev mode, working with ro-crate-js#develop_rocrate-2
