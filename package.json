@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node_modules/jest/bin/jest.js",
+    "test": "node_modules/jest/bin/jest.js --runInBand",
     "build:docs": "node_modules/.bin/jsdoc2md -f 'lib/*.js' -c jsdoc.json > docs.md"
   },
   "repository": {
@@ -34,7 +34,7 @@
     "jsdoc-to-markdown": "^7.1.1"
   },
   "dependencies": {
-    "@coedl/ocfl": "github:moisbo/ocfl-js#patch-hash_ids",
+    "@coedl/ocfl": "github:moisbo/ocfl-js#develop",
     "commander": "^8.3.0",
     "fs-extra": "^10.0.0",
     "hasha": "^5.2.2",
