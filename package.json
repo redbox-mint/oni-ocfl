@@ -34,7 +34,7 @@
     "jsdoc-to-markdown": "^7.1.1"
   },
   "dependencies": {
-    "@coedl/ocfl": "github:Arkisto-Platform/coedl-ocfl-js#develop",
+    "@ocfl/ocfl-fs": "^0.1.1",
     "commander": "^8.3.0",
     "fs-extra": "^10.0.0",
     "hasha": "^5.2.2",
