@@ -17,3 +17,8 @@ Current file run all tests
 ```
 npm test
 ```
+
+### Docs
+
+[docs](./docs.md)
+

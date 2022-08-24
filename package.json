@@ -8,11 +8,12 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node_modules/jest/bin/jest.js"
+    "test": "node_modules/jest/bin/jest.js --runInBand",
+    "build:docs": "node_modules/.bin/jsdoc2md -f 'lib/*.js' -c jsdoc.json > docs.md"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Language-Research-Technology/oni-ocfl.git"
+    "url": "git+https://github.com/Arkisto-Platform/oni-ocfl.git"
   },
   "keywords": [
     "Oni",
@@ -21,20 +22,24 @@
   "author": "Moises Sacal",
   "license": "GPL-2.0-only",
   "bugs": {
-    "url": "https://github.com/Language-Research-Technology/oni-ocfl/issues"
+    "url": "https://github.com/Arkisto-Platform/oni-ocfl/issues"
   },
-  "homepage": "https://github.com/Language-Research-Technology/oni-ocfl#readme",
+  "homepage": "https://github.com/Arkisto-Platform/oni-ocfl#readme",
   "devDependencies": {
+    "chai": "^4.3.6",
+    "clean-jsdoc-theme": "^3.3.2",
     "dotenv": "^10.0.0",
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "jsdoc": "^3.6.10",
+    "jsdoc-to-markdown": "^7.1.1"
   },
   "dependencies": {
+    "@ocfl/ocfl-fs": "^0.1.1",
     "commander": "^8.3.0",
     "fs-extra": "^10.0.0",
     "hasha": "^5.2.2",
-    "ocfl": "^1.0.9",
-    "ro-crate": "github:Arkisto-Platform/ro-crate-js#graph-methods",
-    "shelljs": "^0.8.4",
+    "ro-crate": "github:Arkisto-Platform/ro-crate-js#develop-rewrite",
+    "shelljs": "^0.8.5",
     "tmp": "^0.2.1",
     "winston": "^3.3.3"
   }

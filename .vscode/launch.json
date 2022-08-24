@@ -15,9 +15,11 @@
             ],
             "args": [
               "${fileBasename}",
+              "--runInBand",
               "--verbose",
               "-i",
-              "--no-cache"
+              "--no-cache",
+              "--bail"
             ],
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
